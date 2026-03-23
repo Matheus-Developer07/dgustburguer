@@ -1,0 +1,48 @@
+:root {
+  /* 🟡 Dourados / Amarelados */
+  --dourado-principal: #d4af37;
+  --dourado-claro: #f2d16b;
+  --dourado-escuro: #a67c00;
+  --amarelo-suave: #fff3b0;
+
+  /* ⚫ Preto elegante (não é preto puro) */
+  --preto-principal: #121212;
+  --preto-secundario: #1e1e1e;
+
+  /* ⚪ Quase branco (mais agradável que branco puro) */
+  --off-white: #f8f6f2;
+
+  /* 🟤 Cor de apoio (combina MUITO com dourado) */
+  --marrom-suave: #5c4328;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: var(--preto-principal);
+    padding-top: 120px;
+}
+/* Header */
+.logo{
+    max-width: 6rem;
+    height: auto;
+    filter: drop-shadow(0px 0px 4px white);
+    margin-top: 10px;
+}
+.divlinks{
+    margin: 10px;
+}
+.links{
+    text-decoration: none;
+    color: var(--dourado-claro);
+}
+.header{
+    background-color: var(--preto-secundario);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 2px 5px var(--amarelo-suave);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
