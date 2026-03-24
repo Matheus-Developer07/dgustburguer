@@ -83,22 +83,29 @@ body{
 }
 .titlecardapio{
     color: var(--dourado-claro);
-    font-size: 5rem;
+    font-size: 8vw;
     font-family: fantasy;
-    max-width: 75%;
+    max-width: 90%;
     text-shadow: 0px 0px 20px var(--dourado-escuro);
     margin-left: auto;
     margin-right: auto;
+    background-color: var(--preto-principal);
+    box-shadow: 0px 0px 20px var(--preto-principal);
+    padding: 10px;
 }
 .cardfoto{
-    width: 100%;
+    width: auto;
     max-width: 16rem;
+    flex: 0 1 16rem;
     padding: 5%;
     background-color: var(--preto-secundario);
-    margin: 2rem;
+    margin: 1rem;
     display: flex;
     flex-direction: column;
     align-items: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px var(--amarelo-suave);
+    justify-content: space-between;
 }
 .nomeburguer{
     color: var(--off-white);
@@ -113,10 +120,16 @@ body{
     justify-content: center;
     max-width: 100%;
     flex-wrap: wrap;
+    gap: 1.5rem;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 .cards2{
     display: flex;
     justify-content: center;
     max-width: 100%;
     flex-wrap: wrap;
+    gap: 1.5rem;
+    max-width: 1000px;
+    margin: 0 auto;
 }
