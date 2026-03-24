@@ -15,6 +15,9 @@
   /* 🟤 Cor de apoio (combina MUITO com dourado) */
   --marrom-suave: #5c4328;
 }
+*{
+    box-sizing: border-box;
+}
 body{
     margin: 0;
     padding: 0;
@@ -45,4 +48,75 @@ body{
     width: 100%;
     top: 0;
     left: 0;
+    z-index: 99;
+}
+/* Cardápio */
+.cardapio{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    z-index: 1;
+    box-shadow: 0px 0px 15px black;
+}
+.bigdgust{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}                              
+.txtburguer{
+    color: var(--off-white);
+    position: absolute;
+    top: 50%;
+    width: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: large;
+    text-shadow: 0px 0px 15px#f2d16b;
+}
+.outrasopcoes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -10%;
+    position: relative;
+    z-index: 50;
+}
+.titlecardapio{
+    color: var(--dourado-claro);
+    font-size: 5rem;
+    font-family: fantasy;
+    max-width: 75%;
+    text-shadow: 0px 0px 20px var(--dourado-escuro);
+    margin-left: auto;
+    margin-right: auto;
+}
+.cardfoto{
+    width: 100%;
+    max-width: 16rem;
+    padding: 5%;
+    background-color: var(--preto-secundario);
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.nomeburguer{
+    color: var(--off-white);
+    font-family: 'Oswald', sans-serif;
+}
+.textcard{
+    color: var(--off-white);
+    font-family: 'Poppins', sans-serif;
+}
+.cards1{
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    flex-wrap: wrap;
+}
+.cards2{
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    flex-wrap: wrap;
 }
