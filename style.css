@@ -67,7 +67,7 @@ body{
 .txtburguer{
     color: var(--off-white);
     position: absolute;
-    top: 45%;
+    top: 50%;
     width: 80%;
     left: 50%;
     transform: translateX(-50%);
@@ -80,6 +80,7 @@ body{
     align-items: center;
     position: relative;
     z-index: 50;
+    margin-top: 1rem;
 }
 .titlecardapio{
     color: var(--dourado-claro);
@@ -131,5 +132,75 @@ body{
     flex-wrap: wrap;
     gap: 1.5rem;
     max-width: 1000px;
+    margin: 0 auto;
+}
+/* Localização */
+.loc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.txtloc{
+    box-shadow: 0px 0px 10px var(--dourado-principal);
+    width: fit-content;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.titleloc{
+    color: var(--dourado-claro);
+    font-family: fantasy;
+    text-shadow: 0px 0px 20px var(--dourado-escuro);
+    font-size: 5vw;
+    padding: 1px;
+}
+.mapfoto{
+    margin-top: 5%;
+    display: block;
+    max-width: 90%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* Horário e Botão de Ação */
+.cards3{
+    display: flex;
+    justify-content: center;
+}
+.botton{
+    width: auto;
+    max-width: 16rem;
+    flex: 0 1 16rem;
+    padding: 5%;
+    background-color: var(--preto-secundario);
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px var(--amarelo-suave);
+    justify-content: space-between;
+}
+.whatsapp{
+    text-decoration: none;
+    color: var(--off-white);
+    background-color: #25D366;
+    border-radius: 15px;
+    box-shadow: 0px 0px 6px var(--off-white);
+    padding: 10px;
+}
+/* Rodapé */
+.rodape{
+    background-color: var(--preto-secundario);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px -2px 15px var(--amarelo-suave);
+    margin-top: 5%;
+}
+.txtrodape{
+    color: var(--dourado-claro);
+    max-width: 300px;
+    font-size: 1.3rem;
     margin: 0 auto;
 }
