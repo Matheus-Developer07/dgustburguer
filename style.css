@@ -85,7 +85,7 @@ body{
 .titlecardapio{
     color: var(--dourado-claro);
     font-size: 6vw;
-    font-family: fantasy;
+    font-family: 'Bebas Neue', sans-serif;
     max-width: 90%;
     text-shadow: 0px 0px 20px var(--dourado-escuro);
     margin-left: auto;
@@ -148,7 +148,7 @@ body{
 }
 .titleloc{
     color: var(--dourado-claro);
-    font-family: fantasy;
+    font-family: 'Bebas Neue', sans-serif;
     text-shadow: 0px 0px 20px var(--dourado-escuro);
     font-size: 5vw;
     padding: 1px;
